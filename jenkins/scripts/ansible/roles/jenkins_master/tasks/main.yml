@@ -1,0 +1,9 @@
+---
+
+- name: "Make sure docker daemon is up"
+  service:
+    name: docker
+    state: started
+
+- name: "Executing Dockerfile for building Jenkins"
+  command: chdir=/home/ubuntu/ansible/roles/jenkins_master/files/docker docker-compose build web

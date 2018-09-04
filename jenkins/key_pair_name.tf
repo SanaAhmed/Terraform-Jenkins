@@ -1,0 +1,4 @@
+resource "aws_key_pair" "Jenkins_key" {
+  key_name   = "Jenkins_Key_Pair"
+  public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDT2HJrLRGRfAP5choTH13qYaCesc0FUvHCDBvkRRb/NzjeIERvnXmOlokOsiOfQX21J2Tj4VQHFSOY9IYiu6IhQQt8ZJMKMADzh9tobjIZ+CSdWnX1NcgmQBflZjAThACODmPgDqJO9DV8Y0YX6JG+YWnCAVfH2x8sXaYuZ9sLbe+pi9qjT7kh0OHg0jeyM2wPnhOToOKP8PFXeq7KTE0JqLjDncQItm1a6erxnkgp8m8i0Vst+Lyiv3n6nltyTtxtjQ+RBp6hOttyFB780OrKlOWCbAsE4CxfA0f1A5ueldfytT/C/Oo5foQMWhEuOFi3uzD3yxXyc1u43GfYlD0H hatim@hatim-HP-ProBook-450-G3"
+}
